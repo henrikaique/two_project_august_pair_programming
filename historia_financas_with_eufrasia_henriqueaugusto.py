@@ -5,7 +5,7 @@ import requests
 from PIL import Image, ImageTk
 
 def mostrar_fato(detalhe):
-    messagebox.showinfo("Curiosidade Eufrasia", detalhe)
+    messagebox.showinfo("Curiosidade Eufrasia", detalhe) 
 
 janela = tk.Tk()
 janela.title("História Financeira: Eufrásia Teixeira Leite")
