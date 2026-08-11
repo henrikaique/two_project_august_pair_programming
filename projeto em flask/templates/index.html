@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex - 1ª Geração</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <header>
+        <h1>Pokédex Kanto (1ª Geração)</h1>
+    </header>
+
+    <main class="container">
+        {% for pokemon in pokemons %}
+            <div class="card">
+                <span class="numero">#{{ pokemon.id }}</span>
+                <img src="{{ pokemon.imagem }}" alt="{{ pokemon.nome }}">
+                <h2>{{ pokemon.nome }}</h2>
+            </div>
+        {% endfor %}
+    </main>
+
+</body>
+</html>
