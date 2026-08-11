@@ -1,4 +1,4 @@
-# two_project_august_pair_programming
+# two_project_august_pair_programming-pokedex_henriqueaugusto.py
 
 # 🔴 Pokédex Python (Tkinter + PokéAPI)
 Uma aplicação desktop simples e funcional de Pokédex construída em Python utilizando Tkinter para a interface gráfica e a PokéAPI para buscar dados em tempo real sobre qualquer Pokémon.
