@@ -239,15 +239,15 @@ class PokedexApp:
             text=f"Habilidades: {', '.join(habilidades)}"
         )
 
-        # Limpa barras antigas
+        
         for widget in self.frame_stats.winfo_children():
             widget.destroy()
 
-        # Define cor atual baseada no modo
+        
         cor_card = "#2D2D2D" if self.modo_escuro else "white"
         cor_texto = "#FFFFFF" if self.modo_escuro else "#1D1D1D"
 
-        # Desenha as novas barras de progresso
+       
         for stat in dados["stats"]:
             nome_stat = traduzir_estatistica(stat["stat"]["name"])
             valor = stat["base_stat"]
