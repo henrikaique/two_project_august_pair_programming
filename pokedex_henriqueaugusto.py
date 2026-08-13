@@ -26,7 +26,7 @@ class PokedexApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Pokédex Python")
-        self.root.geometry("420x640")
+        self.root.geometry("480x800")
         self.root.resizable(False, False)
         self.root.configure(bg="#DC0A2D")
 
