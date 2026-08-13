@@ -1,4 +1,4 @@
-# two_project_august_pair_programming-pokedex_henriqueaugusto.py
+
 
 # 📚 Documentação dos Projetos Python (Tkinter)
 Esta coleção reúne três aplicações desktop interativas desenvolvidas em Python com a biblioteca Tkinter, explorando desde a integração com APIs externas até a construção de simuladores e interfaces educativas.
